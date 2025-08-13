@@ -11,12 +11,12 @@ const About = () => {
     {
       icon: <TrendingUp className="w-8 h-8" />,
       title: "Career Progression",
-      description: "From system administrator to web development expert, continuously evolving with technology"
+      description: "From QA Intern to Quality Expert, continuously evolving with technology"
     },
     {
       icon: <Target className="w-8 h-8" />,
       title: "Mentorship Excellence",
-      description: "Passion for mentoring developers and engineering managers, helping teams reach their potential"
+      description: "Passion for mentoring developers and Quality enthusiasts, helping teams reach their potential"
     },
     {
       icon: <Heart className="w-8 h-8" />,
@@ -41,14 +41,14 @@ const About = () => {
             {/* Left Column - Story */}
             <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
-                I began my career as a system administrator in 2001, managing networks and 
-                Active Directory. In 2004, I transitioned to web development, gaining 
-                experience in JavaScript, C#, and PHP, and started blogging on web-dev topics.
+                An accomplished QA Team Lead with over 6 years of experience in manual and automation testing, 
+                leading high-performing QA teams to deliver quality software solutions across diverse domains. 
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed">
-                In 2007, I began leading teams. My passion lies in andragogy and mentorship. I 
-                have mentored over 40 developers and 25 engineering managers throughout my career.
+                Skilled in test strategy, planning, execution, and continuous process improvement for web, mobile, and API-based applications. Proficient in automation tools such as Selenium, JMeter,
+                 Postman, Rest Assured, BrowserStack, and Burp Suite, with strong expertise in Agile (Scrum & Kanban) methodologies, CI/CD integration, and STLC best practices. Adept in functional, non-functional, performance, security, regression, and UAT testing, with a proven ability to align QA deliverables with business objectives through effective stakeholder communication and requirement analysis. Possesses domain expertise in HealthTech, FinTech, GovTech, E-commerce, and EdTech, and is recognized for fostering a quality-focused culture,
+                 mentoring team members, and driving innovation. Committed to continuous learning, team development, and the adoption of emerging QA tools and practices to ensure excellence in software delivery.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed">
@@ -60,7 +60,7 @@ const About = () => {
 
               <div className="pt-6">
                 <a
-                  href="https://www.linkedin.com/in/madhu-jha-510aa1111/"
+                  href="https://www.linkedin.com/in/madhhu-jha-510aa1111/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold transition-colors duration-200"

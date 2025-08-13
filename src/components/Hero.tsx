@@ -36,11 +36,11 @@ const Hero = () => {
           </h1>
           
           <div className="text-xl md:text-2xl text-orange-400 font-semibold mb-4 tracking-wide">
-            MANAGER, ENGINEER, MENTOR
+            Lead QA Engineer, Mentor
           </div>
           
           <div className="text-lg text-slate-300 mb-2">
-            6+ Years of Experience in IT
+            6+ Years of Experience in IT and Software Industry
           </div>
 
           <div className="flex items-center justify-center text-slate-400 mb-8">
@@ -51,8 +51,10 @@ const Hero = () => {
           {/* Description */}
           <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed">
             Specializing in working with people, engineers, communities, and companies. 
-            I enjoy helping to facilitate and encourage people to work better, teams to form, 
-            deliver and grow, and companies to be more successful.
+            Deep expertise in end-to-end software quality strategy, test automation, and
+            process optimization. Proven track record of leading high-impact QA initiatives,
+            mentoring cross-functional teams, and driving quality culture to deliver robust, scalable,
+            and customer-focused products.
           </p>
 
           {/* CTA Buttons */}
@@ -74,7 +76,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://www.linkedin.com/in/madhu-jha-510aa1111/"
+              href="https://www.linkedin.com/in/madhhu-jha-510aa1111/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300"
@@ -82,7 +84,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/MadhuJha050"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300"
@@ -90,7 +92,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="mailto:contact@madhujha.com"
+              href="mailto:madhujhaqa@gmail.com"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-300"
             >
               <Mail size={24} />

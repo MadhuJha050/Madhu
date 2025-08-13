@@ -7,11 +7,11 @@ const Skills = () => {
       icon: <Code className="w-8 h-8" />,
       title: "Technical Skills",
       skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "C#", level: 85 },
-        { name: "PHP", level: 80 },
-        { name: "Web Development", level: 95 },
-        { name: "System Administration", level: 88 }
+        { name: "Team Lead and mentoring", level: 95},
+        { name: "QA process and methodology", level: 98 },
+        { name: "Manual Testing", level: 99 },
+        { name: "Performance Testing", level: 95 },
+        { name: "Automation Testing", level: 90 }
       ]
     },
     {
