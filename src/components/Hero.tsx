@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import profile from "../Images/madhu.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -20,7 +21,11 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="w-48 h-48 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 p-1 shadow-2xl">
               <div className="w-full h-full rounded-full bg-slate-100 flex items-center justify-center text-slate-600 text-6xl font-bold">
-                MJ
+                <img
+                src={profile}
+                alt="Profile"
+                className="rounded-full w-full max-w-md mx-auto shadow-2xl transform transition-transform duration-800 md:group-hover:grayscale"
+              />
               </div>
             </div>
           </div>
