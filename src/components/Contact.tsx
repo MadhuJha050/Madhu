@@ -48,7 +48,7 @@ const Contact = () => {
                 </h3>
                 <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                   I'm always interested in discussing new opportunities, 
-                  mentoring aspiring developers, or collaborating on meaningful projects. 
+                  mentoring aspiring QA and developers, or collaborating on meaningful projects. 
                   Feel free to reach out!
                 </p>
               </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-slate-800">Email</div>
-                    <div className="text-slate-600">madhujha@example.com</div>
+                    <div className="text-slate-600">madhujhaqa@gmail.com</div>
                   </div>
                 </div>
 
@@ -140,7 +140,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all duration-200"
-                      placeholder="your.email@example.com"
+                      placeholder="madhujhaqa@gmail.com"
                     />
                   </div>
 

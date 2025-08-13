@@ -4,31 +4,38 @@ import { Calendar, MapPin, ChevronRight } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      period: "2004 - Present",
-      title: "Web Development & Engineering Management",
+      period: "2017 - Present",
+      title: "Quality Assurance and Control",
       company: "Various Organizations",
-      location: "Nepal",
-      description: "Transitioned to web development, gaining expertise in JavaScript, C#, and PHP. Started blogging on web development topics and sharing knowledge with the community.",
-      highlights: [
-        "Led web development initiatives across multiple technologies",
-        "Established technical blogging presence",
-        "Mentored 40+ developers and 25+ engineering managers",
-        "Focused on quality-driven development practices"
+      location: "Nepal and Remote",
+      description: "Progressed from QA Engineer to QA Team Lead, leading high-performing teams in delivering quality software across web, mobile, and API-based applications. Developed and implemented effective QA strategies, test plans, and process improvements while ensuring alignment with business goals.", highlights: [
+        "Led QA teams, mentoring interns and junior engineers",
+        "Proficient in test management and CI/CD tools including Jira, Zoho, Zephyr, TestRail, Trello, Jenkins, GitHub, and Bitbucket.",
+        "Implemented manual and automation testing using standard manual testing process, Selenium, JMeter, Postman, Rest Assured, and BrowserStack",
+        "Integrated QA processes into CI/CD pipelines, enhancing delivery speed and quality",
+        "Performed functional, non-functional, performance, security, regression, and UAT testing",
+        "Strong programming foundation in Java, JavaScript, Python, and SQL for automation scripting and data validation.",
+        "Demonstrated proficiency in the complete STLC, covering functional and non-functional testing, performance testing, security testing, cross-browser testing, API testing, integration testing, UAT, QAT, regression testing, smoke testing, and detailed test documentation.",
+        "Experienced in Agile (Scrum & Kanban) methodologies, SDLC, and working with JSON, wireframe design, and ER diagrams, with knowledge of HIPAA compliance and US healthcare standards.",
+        "Collaborated with cross-functional teams across HealthTech, FinTech, GovTech, E-commerce, and EdTech domains",
+        "Fostered a quality-focused culture and drove innovation in testing practices",
+        "Domain expertise spans EHR, health monitoring apps, medical diagnostics, healthcare data analytics, HealthTech, EdTech, FinTech, GovTech, and E-commerce, ensuring quality-focused delivery across diverse industries."
       ]
+      
     },
-    {
-      period: "2001 - 2004",
-      title: "System Administrator",
-      company: "IT Infrastructure",
-      location: "Nepal",
-      description: "Started career managing networks and Active Directory systems, building foundational IT infrastructure knowledge.",
-      highlights: [
-        "Managed enterprise network infrastructure",
-        "Administered Active Directory systems",
-        "Developed system administration expertise",
-        "Built strong foundation in IT operations"
-      ]
-    }
+    // {
+    //   period: "2001 - 2004",
+    //   title: "System Administrator",
+    //   company: "IT Infrastructure",
+    //   location: "Nepal",
+    //   description: "Started career managing networks and Active Directory systems, building foundational IT infrastructure knowledge.",
+    //   highlights: [
+    //     "Managed enterprise network infrastructure",
+    //     "Administered Active Directory systems",
+    //     "Developed system administration expertise",
+    //     "Built strong foundation in IT operations"
+    //   ]
+    // }
   ];
 
   return (
@@ -55,7 +62,7 @@ const Experience = () => {
               <div key={index} className="relative mb-12 md:ml-20">
                 {/* Timeline Dot */}
                 <div className="absolute -left-20 top-6 w-4 h-4 bg-orange-500 rounded-full hidden md:block"></div>
-                
+
                 <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                   {/* Header */}
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
