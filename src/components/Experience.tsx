@@ -11,6 +11,7 @@ const Experience = () => {
       description: "Progressed from QA Engineer to QA Team Lead, leading high-performing teams in delivering quality software across web, mobile, and API-based applications. Developed and implemented effective QA strategies, test plans, and process improvements while ensuring alignment with business goals.", highlights: [
         "Led QA teams, mentoring interns and junior engineers",
         "Proficient in test management and CI/CD tools including Jira, Zoho, Zephyr, TestRail, Trello, Jenkins, GitHub, and Bitbucket.",
+       "Prepared comprehensive test documentation, team roadmap,RTM, including test plans, test cases, and test scripts.",
         "Implemented manual and automation testing using standard manual testing process, Selenium, JMeter, Postman, Rest Assured, and BrowserStack",
         "Integrated QA processes into CI/CD pipelines, enhancing delivery speed and quality",
         "Performed functional, non-functional, performance, security, regression, and UAT testing",
